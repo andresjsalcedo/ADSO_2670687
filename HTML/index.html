@@ -3,6 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <title>Iniciando con GIT</title>
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         
@@ -13,9 +14,9 @@
         <h5>Concepto de GIT</h5>
         <h6>Concepto de GIT</h6>
 
-        <p></p>
+        <p id="p1">Titulo</p>
 
-        <h2>PRINCIPALES COMANDOS DE GIT</h2>
+        <h2 class="PCG">PRINCIPALES COMANDOS DE GIT</h2>
         <ul>
             <li><strong>GIT INIT:</strong>Este comando funciona para inicializar un proyecto con GIT</li>
             <li><strong>GIT ADD:</strong>Este comando añade cambios de archivos en el directorio de ensayo</li>
@@ -114,7 +115,7 @@
             <label for="">Numero</label>
             <input type="number" name="Numero" id="Numero" placeholder="digite un numero" required=""> <br> <br>
             <label for="">Rango</label>
-            <input type="range" name="Rango" id="Rango" placeholder="Rango" required=""> <br> <br>
+            <input type="range" name="Rango" id="Rango" placeholder="Rango" required="" min="0" max="100"> <br> <br>
             <label for="">Numero de telefono</label>
             <input type="number" name="numero" id="numero" placeholder="Digite su numero de telefono" required=""> <br> <br>
             <label for="">Baloncesto</label>
@@ -133,10 +134,15 @@
                 <option value="opción 2">Salchipapa</option>
                 <option value="opción 3">Tacos</option>
                 <option value="opción 4">Quesadillas</option>
+                ç<option value="opción 5">Perro caliente</option>
             </select> <br> <br> 
             <label for="">Cargar archivos</label> <br> <br>
             <input type="file" name="archivo" id="archivo" placeholder="file" required=""> <br> <br>
             <button value="Registrar">Registrar</button>
         </form>
+        <h2>Etiquetas de multimedia</h2>
+        <video src="Videos/PROMO.mp4" width="640" height="480" controls loop></video>
+        <h3><Audio</h3>
+        <audio src="Audios/Audio.mp3" controls></audio>
     </body>
 </html>
