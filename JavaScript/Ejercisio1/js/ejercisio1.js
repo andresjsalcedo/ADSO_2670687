@@ -10,7 +10,7 @@ alert ("el nuevo sueldo con el aumento es: "+nsueldo)
  recibe una comision de 30% del total de las ventas de un mes, 
  el quiere saber cuanto ganara en un mes que tuvo tres ventas*/
 
-let sueldo = prompt("ingrese el valor del sueldo");
+let sueldob = prompt("ingrese el valor del sueldo");
 let venta1 = prompt("ingrese el valor de la venta");
 let venta2 = prompt("ingrese el valor de la venta");
 let venta3 = prompt("ingrese el valor de la venta");
