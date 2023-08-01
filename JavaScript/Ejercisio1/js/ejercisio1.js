@@ -47,7 +47,7 @@ b. 30% de la calificación del examen final.
 c. 15% de la calificación de un trabajo final. */
 
 let promedio = prompt("ingrese el promedio de sus calificaciones");
-let exam = prompt("ingrse la calificacion de su examen final");
+let exam = prompt("ingrese la calificacion de su examen final");
 let trab = prompt("ingrese la calificacion de su trabajo final");
 let pprom = 55/100;
 let pexam = 30/100;
@@ -98,7 +98,7 @@ pediatría     : 30%
 Obtener la cantidad de dinero que recibirá cada área, para cualquier monto
 presupuestal.*/
 
-let presupuesto = prompt("Ingrece el presepuesto de este año en el hospital");
+let presupuesto = prompt("Ingres∫e el presepuesto de este año en el hospital");
 let gine = 40/100;
 let trau = 30/100;
 let pedi = 30/100;
